@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Usuário"
+            android:background="@drawable/borda" />
+
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:text="Senhaoitodigi"
+            android:background="@drawable/borda"/>
+
+        <LinearLayout
+            android:layout_marginTop="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:text="Cadastro" />
+
+            <Button
+                android:id="@+id/btnEntrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:text="Login" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
